@@ -1,0 +1,20 @@
+div#content {
+    margin: 10px;
+}
+
+#quickman-form {
+    line-height: 1.5;
+}
+
+.section-description {
+    color: #555555;
+    font-style: oblique;
+}
+
+#quickman-form input[type="submit"] {
+    float: right;
+}
+
+#quickman-form .section-separator {
+    height: 0.6em;
+}

@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Quickman",
+    "version": "0.1.0",
+
+    "description": "Searches web-based manpages",
+    "homepage-url": "https://github.com/mincardona/quickman",
+
+    "icons": {
+        "48": "icons/qman-48.png"
+    },
+
+    "browser_action": {
+        "default_icon": "icons/qman-48.png",
+        "default_title": "Quickman",
+        "default_popup": "src/popup.html",
+        "browser_style": true
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "quickman@mji"
+        }
+    }
+}
