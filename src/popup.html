@@ -6,11 +6,19 @@
 </head>
 <body>
     <div id="content">
-        <form id="quickman-form">
+        <form id="quickman-form" autocomplete="off">
             <label><input type="text" name="term" placeholder="term" autofocus required="required"></label><br>
             <div class="section-separator"></div>
             <label><input type="text" name="section" placeholder="section (optional)"></label><br>
             <span class="section-description">&nbsp;</span><br>
+            <select name="os">
+                <option value="man7">Linux (man7)</option>
+                <option value="freebsd">FreeBSD</option>
+                <option value="openbsd">OpenBSD</option>
+                <option value="netbsd">NetBSD</option>
+                <option value="dragonflybsd">DragonFly BSD</option>
+            </select>
+            &nbsp;
             <input type="submit" value="Man">
         </form>
     </div>

@@ -11,6 +11,10 @@ div#content {
     font-style: oblique;
 }
 
+#quickman-form select[name="os"] {
+    float: left;
+}
+
 #quickman-form input[type="submit"] {
     float: right;
 }
